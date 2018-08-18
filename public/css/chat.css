@@ -1,0 +1,123 @@
+
+      body { 
+        background: #eee; 
+        /* padding: 5% 0;  */
+     } 
+       
+     video { 
+        background: black; 
+        border: 1px solid gray; 
+     }
+       
+     .call-page { 
+        position: fixed top; 
+        /* display: block;  */
+        margin: 0 auto; 
+        width: 500px; 
+        height: 500px; 
+        visibility:hidden;
+
+     } 
+       
+     #localVideo { 
+        width: 200px; 
+        height: 200px; 
+        position: absolute; 
+        top: 34px; 
+        right: 15px; 
+     }
+       
+     #remoteVideo { 
+         margin:none;
+        width: 600px; 
+        height: 500px;
+     }
+     #chatPage{
+           color:red;
+           margin-top:30px;
+           background-color:white;
+           border:1px solid rgb(245, 234, 234);
+           padding:10px 10px 10px 10px;
+           font-size:16px;
+           border-radius: 5px;
+       }
+       #chatList{
+           overflow: scroll;
+           height:500;
+       }
+
+     .messageReceivedRow{
+           text-align: left;
+           margin-top:5px;
+           margin-left:20px;
+     }
+     .messageReceived{
+           border-radius: 10px;
+           color:black;
+           background-color:#F1F1F2;
+           padding:15px 10px 15px 10px;
+           max-width:500px;
+     }
+     .messageSentRow{
+           text-align: right;
+           margin-top:5px;
+           margin-right:20px;
+     }
+     .messageSent{
+           color:#ffffff;
+           border-radius: 10px;
+           padding:15px 10px 15px 10px;
+           background-color:rgb(37, 175, 37);
+           max-width:500px;
+     }
+     p{
+           display: inline-block;
+           padding:25px 30px;
+     }
+   .textMessage {
+           border-radius: 4px;
+           border: #DEDEE1 1px solid;
+           box-shadow: none;
+           width:85%;
+     }
+     .message{
+           margin-left:5px;
+           /* position:fixed; */
+           position: relative;
+     }
+     textarea{
+           border-radius: 5px;
+           border:1px solid #eee;
+           padding-top:3px;
+           padding-right:3px;
+           padding-bottom: 0px;
+     }
+    
+     .send{
+           vertical-align: text-bottom;
+           margin-bottom:4px;
+     }	
+     .camera{
+       background-image: url('../img/video.png');
+           background-repeat:no-repeat;
+           height:50px;
+           width:53px;
+     }
+     
+     #talkTo{
+       position:fixed ;
+         top:50px;
+         left:50px;
+         background-color:white;
+         border:1px solid #eee;
+         border-radius:10px;
+         width:200px;
+         height:150px;
+         padding:15px 10px 5px 15px;
+     }
+     .border{
+           border:1px solid red;
+     }
+     button{
+           margin-right: 4px;
+     }

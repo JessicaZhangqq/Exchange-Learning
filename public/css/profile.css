@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   .border{
+   border:solid 1px green;
+   } 
+h3{
+    /* font -size:1.5em; */
+    text-align:left;
+    height:50px;
+}
+h4{
+    color:rgb(46, 5, 5);
+    
+}
+.right{
+    text-align:right;
+    font-size:16px;
+}
+.left{
+    text-align:left;
+    font-size:16px;
+    color:white;
+}
+.red{
+    background:red;
+}
+input{
+    display: inline-block;
+}
+ul{
+    margin-left:30px;
+    margin-top:5px;
+    margin-bottom:5px;
+    display: inline-block;
+}
+li{
+    list-style-type: none;
+    margin-right:10px;  
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+#firstRow{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+}
+#introduction1{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    
+}
+
+img{
+    margin-left:0px;
+    display: inline;
+}
+#logo{
+    padding: 0 ;
+    text-align:left;
+    margin-left:0em;
+}
+.center{
+    text-align: center;
+}
+
+label{
+    display:block;
+    margin-top:5px;
+    margin-bottom:1px;
+    color:green;
+}
+ select{
+    display:inline-block;
+    margin-bottom: 0px;
+}
+form{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+    padding-left:15px;
+    font-size:19px;
+    margin-bottom:0px;
+    margin-top:1px;
+}
+
+input[type="submit"]{
+    display: block;
+    padding:10px 25px 10px 25px;
+    color:white;
+    background-color:green;
+    font-size:16px;
+    text-align:center;
+    border:1px solid white;
+    border-radius:10px;
+    margin-left:100px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+.introduction{
+    display: inline-block;
+    width:500px;
+    height:100px;
+    font-size:0.8em;
+    overflow-y: scroll;
+}
+.bottom{
+    margin:none;
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+    height:80px;
+}
+h5{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+    margin:none;
+    color:darkgreen;
+}
+.green{
+    color:green;
+}
+.editButton{
+    display: block;
+    padding:10px 25px 10px 25px;
+    color:white;
+    background-color:green;
+    font-size:16px;
+    text-align:center;
+    border:1px solid white;
+    border-radius:10px;
+    margin-left:100px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+.error{
+    color:red;
+    font-size:0.8em;
+}
+p{
+    padding:none;
+    margin:none;
+}

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   .border{
+   border:solid 1px green;
+   } 
+h3{
+    /* font -size:1.5em; */
+    text-align:center;
+    height:50px;
+}
+.linearBackground{
+    color:rgb(46, 5, 5);
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+    padding-left:10px;
+    margin-top:5px;
+}
+.right{
+    text-align:right;
+    font-weight: 600;
+    font-size:16px;
+}
+.left{
+    text-align:left;
+    font-weight: 600;
+    font-size:16px;
+}
+.red{
+    background:red;
+}
+input{
+    display: inline-block;
+}
+ul{
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:right;
+}
+li{
+    list-style-type: none;
+    margin-right:10px;  
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+#firstRow{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius: 5px;
+}
+.introductionUser{
+    color:green;
+    overflow: scroll;
+    height:100px;
+}
+.backgroundUser{
+    background: linear-gradient(60deg ,rgb(208, 230, 158),white);
+    border-radius:5px;
+    margin:none;
+
+}
+#introduction{
+  background-image:url("../img/onlin-learning.png");
+  background-repeat: no-repeat;
+  color:rgb(8, 92, 8);
+  border-radius: 5px;
+}
+img{
+   margin-left:0;
+    display: inline;
+}
+#logo{
+    padding: 0 ;
+    text-align:left;
+    margin-left:0em;
+}
+.center{
+    text-align: center;
+}
+button{
+    display: block;
+    padding:15px 25px 15px 25px;
+    color:white;
+    background-color:green;
+    font-size:16px;
+    text-align:center;
+    border:1px solid green;
+    border-radius:10px;
+    margin-left:35px;
+}
+.profilePhoto{
+    width:180px;
+    height:150px;
+    border-radius:50%;
+    margin-left:80px;
+    margin-top:10px;
+}
+.bottomBorder {
+    margin-top:10px;
+    border-bottom:1px dotted lightgreen ;
+}
+span{
+    color:green;
+}
+.card {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin:none;
+    border:none;
+    
+  }
+  
+  .containerCards {
+    padding: 0 30px ;
+  }
+  .column {
+    text-align:left;
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .containerButton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom:5px;
+  }  
+  #email{
+      visibility: hidden;
+  }
+  
+
+  
